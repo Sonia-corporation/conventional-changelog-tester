@@ -34,7 +34,7 @@
   },
   "private": false,
   "scripts": {
-    "release:dry-run": "node index.js"
+    "release:testing": "node index.js"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",

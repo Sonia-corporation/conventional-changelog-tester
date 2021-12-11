@@ -10,7 +10,7 @@ async function release() {
                 'main',
             ],
             noCi: true,
-            dryRun: true
+            dryRun: process.env.DRY_RUN
         }, {
             // Pass the variable `MY_ENV_VAR` to semantic-release without having to modify the local `process.env`
             env: {...process.env},
