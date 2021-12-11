@@ -1,0 +1,47 @@
+{
+  "name": "@sonia-corporation/conventional-changelog-tester",
+  "version": "1.0.0",
+  "author": {
+    "email": "geoffrey.testelin@gmail.com",
+    "name": "Geoffrey 'C0ZEN' Testelin",
+    "url": "https://github.com/C0ZEN"
+  },
+  "contributors": [
+    {
+      "email": "geoffrey.testelin@gmail.com",
+      "name": "Geoffrey 'C0ZEN' Testelin",
+      "url": "https://github.com/C0ZEN"
+    }
+  ],
+  "homepage": "https://github.com/Sonia-corporation/conventional-changelog-tester",
+  "maintainers": [
+    {
+      "email": "geoffrey.testelin@gmail.com",
+      "name": "Geoffrey 'C0ZEN' Testelin",
+      "url": "https://github.com/C0ZEN"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sonia-corporation/conventional-changelog-tester.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sonia-corporation/conventional-changelog-tester/issues"
+  },
+  "engines": {
+    "npm": "7.24.2"
+  },
+  "private": false,
+  "scripts": {
+    "semver": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.1",
+    "@semantic-release/github": "7.2.3",
+    "commitizen": "4.2.4",
+    "@sonia-corporation/conventional-changelog": "1.0.1",
+    "semantic-release": "17.4.7"
+  }
+}
