@@ -34,14 +34,16 @@
   },
   "private": false,
   "scripts": {
-    "semver": "semantic-release"
+    "release:dry-run": "node index.js"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.1",
     "@semantic-release/github": "7.2.3",
-    "commitizen": "4.2.4",
     "@sonia-corporation/conventional-changelog": "1.0.1",
+    "@types/node": "16.11.12",
+    "commitizen": "4.2.4",
+    "dotenv": "10.0.0",
     "semantic-release": "17.4.7"
   }
 }

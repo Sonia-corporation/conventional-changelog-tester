@@ -48,17 +48,10 @@
         "changelogFile": "CHANGELOG.md",
         "changelogTitle": "# Semantic Versioning Changelog"
       }
-    ],
-    [
-      "@semantic-release/git",
-      {
-        "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
-        "message": "build(release): new version ${nextRelease.version}"
-      }
     ]
   ],
-  "dryRun": true,
-  "ci": false,
+  "dryRun": false,
+  "ci": true,
   "debug": true,
   "tagFormat": "${version}"
 }
