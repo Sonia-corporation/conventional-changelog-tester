@@ -31,7 +31,7 @@
   "branchPrefix": "dependencies/",
   "labels": ["dependencies"],
   "rebaseWhen": "behind-base-branch",
-  "baseBranches": ["develop"],
+  "baseBranches": ["main"],
   "prCreation": "immediate",
   "prHourlyLimit": 5,
   "automergeType": "pr",
