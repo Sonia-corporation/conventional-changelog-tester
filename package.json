@@ -30,7 +30,7 @@
     "url": "https://github.com/Sonia-corporation/conventional-changelog-tester/issues"
   },
   "engines": {
-    "npm": "7.24.2"
+    "npm": "8.13.1"
   },
   "private": false,
   "scripts": {
